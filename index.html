@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+<body>
+    <article class="background">
+        <section class="calculator">
+            <h1>Calculadora</h1>
+            <input id="result" readonly>
+            <table>
+                <tr>
+                    <td><button class="calculator-btn clear" value="C">C</button></td>
+                    <td><button class="calculator-btn delete" value="&lt;">&lt;</button></td>
+                    <td><button class="calculator-btn" value="/" data-input>/</button></td>
+                    <td><button class="calculator-btn" value="*" data-input>x</button></td>
+                </tr>
+                <tr>
+                    <td><button class="calculator-btn" value="7" data-input>7</button></td>
+                    <td><button class="calculator-btn" value="8" data-input>8</button></td>
+                    <td><button class="calculator-btn" value="9" data-input>9</button></td>
+                    <td><button class="calculator-btn" value="-" data-input>-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="calculator-btn" value="4" data-input>4</button></td>
+                    <td><button class="calculator-btn" value="5" data-input>5</button></td>
+                    <td><button class="calculator-btn" value="6" data-input>6</button></td>
+                    <td><button class="calculator-btn" value="+" data-input>+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="calculator-btn" value="1" data-input>1</button></td>
+                    <td><button class="calculator-btn" value="2" data-input>2</button></td>
+                    <td><button class="calculator-btn" value="3" data-input>3</button></td>
+                    <td rowspan="2"><button class="calculator-btn equal" value="=">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="calculator-btn zero" value="0" data-input>0</button></td>
+                    <td><button class="calculator-btn" value="." data-input>.</button></td>
+                </tr>
+            </table>
+        </section>
+    </article>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
